@@ -11,7 +11,9 @@ Step 3: Set up environment variables (.env file)
 2. How to Play
 
 Command to run the game: python3 main.py
+
 Game rules (5 attempts, AI gives clues)
+
 Special commands (/reset and /exit)
 
 Key Features
@@ -19,9 +21,13 @@ Key Features
 The AI (GPT-3.5-turbo) handles:
 
 Selecting a random animal (from three categories: mammals, birds, reptiles)
+
 Generating clues
+
 Tracking the number of attempts
+
 Validating guesses
+
 Determining when the game ends
 
 
