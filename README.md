@@ -31,9 +31,11 @@ Validating guesses
 Determining when the game ends
 
 
-Streaming Responses: Text appears character-by-character for a better user experience
-Conversation History: The game maintains context through the entire conversation, allowing the AI to remember what animal it picked and how many attempts have been made
-No Python State Tracking: All game logic is handled by the AI through prompts and conversation context, not Python variables
+Streaming Responses: Text appears character-by-character for a better user experience.
+
+Conversation History: The game maintains context through the entire conversation, allowing the AI to remember what animal it picked and how many attempts have been made.
+
+No Python State Tracking: All game logic is handled by the AI through prompts and conversation context, not Python variables.
 
 Security Note:
 
