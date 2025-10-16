@@ -18,7 +18,7 @@ def save_history(messages):
 
 def main():
     messages = load_history()
-    print("Chat started. Type /exit to quit or /clear to reset history.")
+    print("Chat started. Type /exit to quit or /reset to reset history.")
 
     while True:
         user_input = input("You: ").strip()
