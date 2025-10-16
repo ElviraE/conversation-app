@@ -46,10 +46,15 @@ Security Note:
 
 
 animal-guessing-game/
-├── main.py          ✅ Game code with /exit and /reset
-├── .env             ✅ Your secret API key
-├── .env.example     ✅ Template
-├── .gitignore       ✅ Protects your .env
-└── README.md        ✅ Complete documentation
+
+main.py          ✅ Game code with /exit and /reset
+
+.env             ✅ Your secret API key
+
+.env.example     ✅ Template
+
+.gitignore       ✅ Protects your .env
+
+README.md        ✅ Complete documentation
 
 
