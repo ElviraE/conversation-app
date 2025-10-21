@@ -25,10 +25,8 @@ Your personality: enthusiastic, encouraging, and knowledgeable about animals. Al
 11. Add scoring system based on attempts used 
 12. Be super friendly!"""
 
-# PROMPT ENGINEERING CONCEPT: FEW-SHOT PROMPTING
-# ==============================================
+# FEW-SHOT PROMPTING
 # Few-shot prompting provides examples to guide the AI's behavior
-# This helps the AI understand exactly what kind of responses you want
 
 few_shot_examples = """
 EXAMPLE INTERACTIONS (Few-Shot Learning):
@@ -59,7 +57,7 @@ Now, follow these examples when running the actual game.
 # Combine system prompt with few-shot examples
 full_system_prompt = system_prompt + "\n\n" + few_shot_examples
 
-# PROMPT ENGINEERING CONCEPT: TEMPERATURE
+# TEMPERATURE
 
 # Temperature controls randomness/creativity (0.0 = deterministic, 1.0 = balanced, 2.0 = very random)
 # - Low temperature (0.0-0.3): Focused, consistent, predictable responses
@@ -72,7 +70,7 @@ TEMPERATURE_SETTINGS = {
     "hard": 0.9       # High creativity - creative, tricky clues (within 0-1 range)
 }
 
-# PROMPT ENGINEERING CONCEPT: MAX_TOKENS
+# MAX_TOKENS
 
 # Max tokens limits the response length
 # 1 token ≈ 4 characters or 0.75 words
@@ -84,7 +82,7 @@ MAX_TOKENS_SETTINGS = {
     "hard": 80        # Shorter, concise clues (harder to guess)
 }
 
-# PROMPT ENGINEERING CONCEPT: TOP_P (Nucleus Sampling)
+# TOP_P
 
 # Top_p controls diversity by considering only top probability tokens
 # - Low top_p (0.1-0.5): More focused, less diverse
